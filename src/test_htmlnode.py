@@ -2,6 +2,10 @@ import unittest
 from htmlnode import HtmlNode
 
 class TestHtmlNode(unittest.TestCase):
+    def test_props_to_html_None(self):
+        node = HtmlNode()
+        self.assertEqual(node.props_to_html(), "")
+
     def test_props_to_html_one_props(self):
         props = {"href": "http://example.com"}
         html = HtmlNode(props=props)
