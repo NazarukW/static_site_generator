@@ -29,7 +29,15 @@ class TestLeafNode(unittest.TestCase):
         expected = "<p>example value</p>"
         self.assertEqual(expected, leaf.to_html())
 
-    #def test_repr_all_tag_value_tag_props(self):
-    #    leaf = LeafNode("a", "example value", {"href": "http://example.com"})
-    #    expected = "<a href=\"http://example.com\">example value</a>"
-    #    self.assertEqual(expected, leaf.to_html())
+    def test_repr_all_tag_value_tag_props(self):
+        leaf = LeafNode("a", "example value", props={"href": "http://example.com"})
+        expected = "<a href=\"http://example.com\">example value</a>"
+        self.assertEqual(expected, leaf.to_html())
+
+    def test_repr_all_tag_value_tree_props(self):
+        tag="p"
+        value = "example value"
+        props = {"src": "image.jpg", "width": 100, "height": 200}
+        leaf = LeafNode(tag, value, props=props)
+        expected = "<p src=\"image.jpg\" width=100 height=200>example value</p>"
+        self.assertEqual(expected, leaf.to_html())
