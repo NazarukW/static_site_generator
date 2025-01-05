@@ -3,4 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.12 (Statick_site_generator)" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (static_site_generator)" project-jdk-type="Python SDK" />
 </project>

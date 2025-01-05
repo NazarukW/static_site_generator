@@ -1,5 +1,6 @@
 import unittest
 from htmlnode import HtmlNode, LeafNode, ParentNode
+from textnode import TextType, TextNode, text_node_to_html_node
 
 class TestHtmlNode(unittest.TestCase):
     def test_props_to_html_None(self):
@@ -94,3 +95,10 @@ class TestParentNode(unittest.TestCase):
         parent = ParentNode(tag, children)
         expected = "<p><a href=\"http://example.com\">example value1</a></p>"
         self.assertEqual(expected, parent.to_html())
+
+class TestTextNodeToHTMLNode(unittest.TestCase):
+    def test_text_type(self):
+        text_node = TextNode("Example Text", TextType.TEXT)
+        node = text_node_to_html_node(text_node)
+        self.assertEqual(node.tag, None)
+        self.assertEqual(node.value, "Example Text")

@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4faf10c9-dcfb-45e0-af2c-6c78ca08e8f5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Statick_site_generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Statick_site_generator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/htmlnode.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmlnode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test_htmlnode.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_htmlnode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/textnode.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/textnode.py" afterDir="false" />
     </list>
@@ -49,6 +50,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -97,6 +99,8 @@
       <workItem from="1735749430261" duration="1463000" />
       <workItem from="1735842200804" duration="3499000" />
       <workItem from="1735923716774" duration="4952000" />
+      <workItem from="1736003793956" duration="11451000" />
+      <workItem from="1736075895394" duration="4482000" />
     </task>
     <servers />
   </component>
